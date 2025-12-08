@@ -8,6 +8,7 @@ pub fn run_day(day: u8, input: &str) -> (String, String) {
         4 => (days::day04::part1(input), days::day04::part2(input)),
         5 => (days::day05::part1(input), days::day05::part2(input)),
         6 => (days::day06::part1(input), days::day06::part2(input)),
+        7 => (days::day07::part1(input), days::day07::part2(input)),
         _ => panic!("Unknown day"),
     }
 }
