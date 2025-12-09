@@ -31,6 +31,7 @@ pub fn part1(input: &str) -> String {
     return spoiled_count.to_string();
 }
 
+#[allow(dead_code)]
 fn count_new_fresh_ingredients(
     ranges_checked: &Vec<(i128, i128)>,
     range_to_check: &(i128, i128),
@@ -64,6 +65,7 @@ fn count_new_fresh_ingredients_v2(
         .sum();
 }
 
+#[allow(dead_code)]
 fn ingredient_overlap(reference_range: (i128, i128), new_range: (i128, i128)) -> i128 {
     // if the start is in the middle of a previously counted range
 
